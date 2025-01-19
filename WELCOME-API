@@ -1,12 +1,12 @@
-spring.application.name : WELCOME-API
+spring.application.name:WELCOME-API
 
-#server.port=8081  // To run on multiple servers port no is disabled
+server.port:8081  // To run on multiple servers port no is disabled
 
-spring.boot.admin.client.url : http://localhost:1111/
-management.endpoints.web.exposure.include : *
+spring.boot.admin.client.url:http://localhost:1111/
+management.endpoints.web.exposure.include:*
 
 # Configured because giving isse
-eureka.instance.hostname : localhost
-eureka.client.register-with-eureka : true
+eureka.instance.hostname:localhost
+eureka.client.register-with-eureka:true
 eureka.instance.appname:WELCOME-API
 #eureka.instance.ip-address:localhost
